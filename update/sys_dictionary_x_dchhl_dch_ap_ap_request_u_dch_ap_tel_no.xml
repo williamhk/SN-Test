@@ -53,7 +53,7 @@
         <sys_created_by>Haru.Ng</sys_created_by>
         <sys_created_on>2017-09-25 08:50:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>30a61d6fdb9143403fa45fa0cf961935</sys_id>
+        <sys_id>aa9e35d8dbf94b403fa45fa0cf96196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Tel. No.</sys_name>
         <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
         <sys_update_name>sys_dictionary_x_dchhl_dch_ap_ap_request_u_dch_ap_tel_no</sys_update_name>
-        <sys_updated_by>Haru.Ng</sys_updated_by>
-        <sys_updated_on>2017-09-25 08:50:12</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-10 05:55:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_dchhl_dch_ap_approver_chain</name>
+        <name>x_dchhl_dch_ap_request_line</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>Haru.Ng</sys_created_by>
-        <sys_created_on>2017-09-25 06:24:27</sys_created_on>
+        <sys_created_on>2017-09-19 03:00:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>3665f0abdb5143403fa45fa0cf9619e0</sys_id>
+        <sys_id>e79e75d8dbf94b403fa45fa0cf961971</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dchhl_dch_ap_approver_chain</sys_name>
+        <sys_name>x_dchhl_dch_ap_request_line</sys_name>
         <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
-        <sys_update_name>ua_table_licensing_config_3665f0abdb5143403fa45fa0cf9619e0</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_e79e75d8dbf94b403fa45fa0cf961971</sys_update_name>
         <sys_updated_by>Haru.Ng</sys_updated_by>
-        <sys_updated_on>2017-09-25 06:24:27</sys_updated_on>
+        <sys_updated_on>2017-09-19 03:00:29</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

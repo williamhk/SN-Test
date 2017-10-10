@@ -58,13 +58,46 @@
         <element label="Vendor Name" max_length="200" name="u_dch_ap_vendor_name" read_only="true" type="string"/>
         <element label="Vendor Phone Number" max_length="40" name="u_dch_ap_vendor_phone_number" read_only="true" type="string"/>
         <index name="index">
-            <element name="u_dch_ap_approver_level_1"/>
+            <element name="u_dch_ap_vendor_brand"/>
         </index>
         <index name="index2">
-            <element name="u_dch_ap_vendor_id"/>
+            <element name="u_dch_ap_approver_level_9"/>
         </index>
         <index name="index3">
+            <element name="u_dch_ap_vendor_id"/>
+        </index>
+        <index name="index4">
             <element name="u_dch_ap_approver"/>
+        </index>
+        <index name="index5">
+            <element name="u_dch_ap_approver_level_6"/>
+        </index>
+        <index name="index6">
+            <element name="u_dch_ap_approver_level_10"/>
+        </index>
+        <index name="index7">
+            <element name="u_dch_ap_approver_level_5"/>
+        </index>
+        <index name="index8">
+            <element name="u_dch_ap_approver_level_8"/>
+        </index>
+        <index name="index9">
+            <element name="u_dch_ap_approver_level_7"/>
+        </index>
+        <index name="index10">
+            <element name="u_dch_ap_approver_level_2"/>
+        </index>
+        <index name="index11">
+            <element name="u_dch_ap_approver_level_1"/>
+        </index>
+        <index name="index12">
+            <element name="u_dch_ap_approver_level_4"/>
+        </index>
+        <index name="index13">
+            <element name="u_dch_ap_approver_level_3"/>
+        </index>
+        <index name="index14">
+            <element name="u_dch_ap_vendor_bank_account"/>
         </index>
     </element>
 </database>

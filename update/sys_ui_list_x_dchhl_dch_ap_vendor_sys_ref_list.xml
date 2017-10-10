@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_dch_ap_vendor_id</element>
-            <list_id display_value="x_dchhl_dch_ap_vendor" element="NULL" name="x_dchhl_dch_ap_vendor" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">adbb81e7db9143403fa45fa0cf9619f1</list_id>
+            <list_id display_value="x_dchhl_dch_ap_vendor" element="NULL" name="x_dchhl_dch_ap_vendor" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">c89bcda7db9143403fa45fa0cf961923</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>

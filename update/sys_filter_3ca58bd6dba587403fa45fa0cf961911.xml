@@ -17,12 +17,12 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ca58bd6dba587403fa45fa0cf961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_filter_3ca58bd6dba587403fa45fa0cf961911</sys_update_name>
         <sys_updated_by>Haru.Ng</sys_updated_by>
         <sys_updated_on>2017-10-04 05:57:51</sys_updated_on>
         <table>sys_user</table>

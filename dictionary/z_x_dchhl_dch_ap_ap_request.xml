@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="AP Request" max_length="40" name="z_x_dchhl_dch_ap_ap_request" type="collection"/>
+</database>

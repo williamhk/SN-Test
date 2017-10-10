@@ -15,5 +15,8 @@
         <element label="Employee Name" max_length="40" name="u_dch_ap_employee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_dch_ap_title" type="string"/>
         <element label="User ID" max_length="40" name="u_dch_ap_user_id" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_dch_ap_user_id"/>
+        </index>
     </element>
 </database>
