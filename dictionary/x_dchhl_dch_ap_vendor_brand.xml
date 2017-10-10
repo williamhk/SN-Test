@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vendor Brand" max_length="40" name="x_dchhl_dch_ap_vendor_brand" type="collection">
+        <element label="Vendor Brand" max_length="40" name="u_dch_ap_vendor_brand" type="string"/>
+        <element label="Vendor ID" mandatory="true" max_length="32" name="u_dch_ap_vendor_id" reference="x_dchhl_dch_ap_vendor" type="reference"/>
+        <index name="index">
+            <element name="u_dch_ap_vendor_id"/>
+        </index>
+    </element>
+</database>

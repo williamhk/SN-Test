@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dchhl_dch_ap.DCH_APCN_UtilClass</api_name>
+        <client_callable>true</client_callable>
+        <description>APCN Utiliy Class</description>
+        <name>DCH_APCN_UtilClass</name>
+        <script><![CDATA[var DCH_APCN_UtilClass = Class.create();
+DCH_APCN_UtilClass.prototype = {
+	initialize: function() {
+
+	},
+	returnEmployeeInfo: function(currentUserId){
+		//var currentUserId = this.currentUser;
+		var userInfo = [];
+		//gs.Info('currentUserId: '+currentUserId);
+		var employeeTable = new GlideRecord('x_dchhl_dch_ap_employee');
+		employeeTable.addQuery("u_dch_ap_user_id",currentUserId);
+		employeeTable.query();
+
+		while(employeeTable._next()){
+			userInfo.push(employeeTable);
+		}
+		var employeeDetail =userInfo[0];
+		return employeeDetail;
+	},
+
+	returnVendorInfo: function(vendorId){
+		var	vendorInfoList= [];
+		var vendorTable = new GlideRecord('x_dchhl_dch_ap_vendor');
+		vendorTable.addQuery("sys_id",vendorId);
+		vendorTable.query();
+
+		while(vendorTable.next()){
+			vendorInfoList.push(vendorTable);
+		}
+
+		var vendorInfo = vendorInfoList[0];
+		return vendorInfo;
+
+	},
+
+	getUserId: function(employeeId){
+		var userId;
+		var employeeTable = new GlideRecord('x_dchhl_dch_ap_employee');
+		employeeTable.addQuery("sys_id",employeeId);
+		employeeTable.query();
+
+		while(employeeTable.next()){
+			gs.info('User Id:' + employeeTable.u_dch_ap_user_id);
+			userId = employeeTable.u_dch_ap_user_id;
+		}
+		gs.info('Finalised User Id:' + employeeTable.u_dch_ap_user_id);
+		return userId;
+	},
+
+	addAPTotalAmt: function(requestId,detailAmt){
+		var apRequestList = [];
+		var apRequestTable = new GlideRecord('x_dchhl_dch_ap_ap_request');
+		apRequestTable.addQuery("sys_id",requestId);
+		apRequestTable.query();
+
+		while(apRequestTable.next()){
+			//apRequestList.push(apRequestTable);
+			apRequestTable.u_dch_ap_total_request_amount += detailAmt;
+			apRequestTable.update(); 
+		}
+	},
+
+	updateAPTotalAmt: function(requestId){
+		var newTotalAmt = 0;
+		var expenseDetailTable = new GlideRecord('x_dchhl_dch_ap_request_line');
+		expenseDetailTable.addQuery("u_dch_ap_request_number",requestId);
+		expenseDetailTable.query();
+
+		while(expenseDetailTable.next()){
+			newTotalAmt += expenseDetailTable.u_dch_ap_amount_after_tax;	
+		}
+		gs.info('newTotalAmt:'+newTotalAmt);
+
+		var apRequestTable = new GlideRecord('x_dchhl_dch_ap_ap_request');
+		apRequestTable.addQuery("sys_id",requestId);
+		apRequestTable.query();
+
+		while(apRequestTable.next()){
+			apRequestTable.u_dch_ap_total_request_amount = newTotalAmt;
+			apRequestTable.update(); 
+		}
+	},
+
+	getThreshold: function(type,subType,totalAmt){
+		var thresholdList = [];
+		var thresholdTable = new GlideRecord('x_dchhl_dch_ap_criteria');
+		thresholdTable.addQuery("u_dch_ap_type",type);
+		thresholdTable.addQuery("u_dch_ap_sub_type",subType);
+		thresholdTable.addQuery("u_dch_ap_maximum_amount",">",totalAmt);
+		thresholdTable.orderByDesc("u_dch_ap_maximum_amount");
+		thresholdTable.query();
+
+		while(thresholdTable.next()){
+			gs.info('threshold:'+thresholdTable.u_dch_ap_type+'-'+thresholdTable.u_dch_ap_sub_type+'-'+thresholdTable.u_dch_ap_maximum_amount);
+			thresholdList.push(thresholdTable);
+		}
+		return thresholdList[0];
+	},
+
+	returnApproverChain : function(firstApproverId,company,dept,thresholdId){
+		gs.info('retreiveApproverChain:'+ firstApproverId +'-'+ company +'-'+ dept +'-'+ thresholdId);
+		var approverChainList = [];
+		var approverChain = new GlideRecord('x_dchhl_dch_ap_approver_chain');
+		approverChain.addQuery("u_dch_ap_approver_level_1",firstApproverId);
+		approverChain.addQuery("u_dch_ap_company",company);
+		approverChain.addQuery("u_dch_ap_department",dept);
+		approverChain.addQuery("u_dch_ap_criteria_id",thresholdId);
+		approverChain.query();
+
+		while (approverChain.next()){
+			approverChainList.push(approverChain);
+		}
+
+		var approverChainRecord = approverChainList[0];
+		return approverChainRecord;
+	},
+
+	type: 'DCH_APCN_UtilClass'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Kevin.Choi</sys_created_by>
+        <sys_created_on>2017-09-26 02:58:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc8c89bbdb9d03406862f2adbf961926</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>DCH_APCN_UtilClass</sys_name>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+        <sys_update_name>sys_script_include_bc8c89bbdb9d03406862f2adbf961926</sys_update_name>
+        <sys_updated_by>Kevin.Choi</sys_updated_by>
+        <sys_updated_on>2017-09-28 09:22:14</sys_updated_on>
+    </sys_script_include>
+</record_update>

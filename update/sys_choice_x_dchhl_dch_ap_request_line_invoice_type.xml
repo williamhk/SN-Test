@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="invoice_type" table="x_dchhl_dch_ap_request_line" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_request_line</name>
+            <sequence/>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 08:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef46e375db118f003fa45fa0cf961977</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 08:48:07</sys_updated_on>
+            <value>General</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Special</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_request_line</name>
+            <sequence/>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 08:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d56e375db118f003fa45fa0cf961979</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 08:48:24</sys_updated_on>
+            <value>Special</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>invoice_type</element>
+            <name>x_dchhl_dch_ap_request_line</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 08:48:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2156a375db118f003fa45fa0cf961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>invoice_type</sys_name>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_choice_x_dchhl_dch_ap_request_line_invoice_type</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 08:48:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

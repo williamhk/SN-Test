@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request_Line" max_length="40" name="x_dchhl_dch_ap_request_line" type="collection">
+        <element label="Amount" max_length="20" name="u_dch_ap_amount_after_tax" type="decimal"/>
+        <element label="Amount Before Tax" max_length="20" name="u_dch_ap_amount_before_tax" type="decimal"/>
+        <element choice="1" dependent="u_dch_ap_expense_type" dependent_on_field="u_dch_ap_expense_type" label="Category" max_length="40" name="u_dch_ap_category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Communication Fee" label="Fixed Phone" sequence="0" value="Fixed Phone"/>
+                <element dependent_value="Communication Fee" label="Mobile Phone" sequence="1" value="Mobile Phone"/>
+                <element dependent_value="Office Fee" label="Office Supplies" sequence="2" value="Office Supplies"/>
+                <element dependent_value="Office Fee" label="Office Miscellaneous Expenses" sequence="3" value="Office Miscellaneous Expenses"/>
+                <element dependent_value="Office Fee" label="Office Cleaning" sequence="4" value="Office Cleaning"/>
+                <element dependent_value="Vehicle Use Fee" label="Fuel Expense" sequence="5" value="Fuel Expense"/>
+                <element dependent_value="Vehicle Use Fee" label="Highway Bridge Expense" sequence="6" value="Highway Bridge Expense"/>
+                <element dependent_value="Vehicle Use Fee" label="Parking Fee" sequence="7" value="Parking Fee"/>
+                <element dependent_value="Vehicle Use Fee" label="Maintenance Fee" sequence="8" value="Maintenance Fee"/>
+                <element dependent_value="Vehicle Use Fee" label="Car Insurance Premium" sequence="9" value="Car Insurance Premium"/>
+                <element dependent_value="Rental &amp; Related" label="Rent" sequence="10" value="Rent"/>
+                <element dependent_value="Rental &amp; Related" label="Water Tariff &amp; Power Bill" sequence="11" value="Water Tariff &amp; Power Bill"/>
+                <element dependent_value="Rental &amp; Related" label="Building Management" sequence="12" value="Building Management"/>
+                <element dependent_value="Rental &amp; Related" label="Building Cleaning" sequence="13" value="Building Cleaning"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Office Supplies  (Vendor)" sequence="14" value="Office Supplies  (Vendor)"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Office Miscellaneous Expenses  (Vendor)" sequence="15" value="Office Miscellaneous Expenses  (Vendor)"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Office Cleaning  (Vendor)" sequence="16" value="Office Cleaning  (Vendor)"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Telephone Charges" sequence="17" value="Telephone Charges"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Network Charges" sequence="18" value="Network Charges"/>
+                <element dependent_value="Office Fee  (Vendor)" label="Express Fee  (Vendor)" sequence="19" value="Express Fee  (Vendor)"/>
+                <element dependent_value="Logistics Fee" label="Warehousing Fee" sequence="20" value="Warehousing Fee"/>
+                <element dependent_value="Logistics Fee" label="Shipping Fee" sequence="21" value="Shipping Fee"/>
+                <element dependent_value="Vehicle Use Fee (Vendor)" label="Fuel Expense  (Vendor)" sequence="22" value="Fuel Expense  (Vendor)"/>
+                <element dependent_value="Vehicle Use Fee (Vendor)" label="Parking Fee  (Vendor)" sequence="23" value="Parking Fee  (Vendor)"/>
+                <element dependent_value="Vehicle Use Fee (Vendor)" label="Maintenance Fee  (Vendor)" sequence="24" value="Maintenance Fee  (Vendor)"/>
+                <element dependent_value="Vehicle Use Fee (Vendor)" label="Car Insurance Premium  (Vendor)" sequence="25" value="Car Insurance Premium  (Vendor)"/>
+                <element dependent_value="Publicity Fee" label="Conference Fee" sequence="26" value="Conference Fee"/>
+                <element dependent_value="Publicity Fee" label="Publicity Activities Fee" sequence="27" value="Publicity Activities Fee"/>
+                <element dependent_value="Publicity Fee" label="Publicity Meals Fee" sequence="28" value="Publicity Meals Fee"/>
+                <element dependent_value="Publicity Fee" label="Printing Fee" sequence="29" value="Printing Fee"/>
+                <element dependent_value="Insurance Premium" label="Property Insurance" sequence="30" value="Property Insurance"/>
+                <element dependent_value="Professional Service" label="Audit Fee" sequence="31" value="Audit Fee"/>
+                <element dependent_value="Professional Service" label="Legal Fee" sequence="32" value="Legal Fee"/>
+                <element dependent_value="Professional Service" label="Agency Fee" sequence="33" value="Agency Fee"/>
+                <element dependent_value="Professional Service" label="Market Research Fee" sequence="34" value="Market Research Fee"/>
+                <element dependent_value="Employee Benefits" label="Employee Activities Fee" sequence="35" value="Employee Activities Fee"/>
+                <element dependent_value="Employee Benefits" label="Medical Fee" sequence="36" value="Medical Fee"/>
+                <element dependent_value="Sales Expense" label="Promotional Fee" sequence="37" value="Promotional Fee"/>
+                <element dependent_value="Sales Expense" label="Entry fee" sequence="38" value="Entry fee"/>
+                <element dependent_value="Sales Expense" label="Display Fee" sequence="39" value="Display Fee"/>
+                <element dependent_value="Sales Expense" label="Rebate" sequence="40" value="Rebate"/>
+                <element dependent_value="Sales Expense" label="Breach of Contract" sequence="41" value="Breach of Contract"/>
+                <element dependent_value="Sales Expense" label="Sales Miscellaneous Expenses" sequence="42" value="Sales Miscellaneous Expenses"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="u_dch_ap_request_number.u_dch_ap_sub_type" dependent_on_field="u_dch_ap_request_number.u_dch_ap_sub_type" label="Expense Type" max_length="40" name="u_dch_ap_expense_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Daily Expense" label="Communication Fee" sequence="0" value="Communication Fee"/>
+                <element dependent_value="Daily Expense" label="Travel Fee" sequence="1" value="Travel Fee"/>
+                <element dependent_value="Daily Expense" label="Express Fee" sequence="2" value="Express Fee"/>
+                <element dependent_value="Daily Expense" label="Office Fee" sequence="3" value="Office Fee"/>
+                <element dependent_value="Daily Expense" label="Vehicle Use Fee" sequence="4" value="Vehicle Use Fee"/>
+                <element dependent_value="Daily Expense" label="Building Fee" sequence="5" value="Building Fee"/>
+                <element dependent_value="Daily Expense" label="Onboard Body Check" sequence="6" value="Onboard Body Check"/>
+                <element dependent_value="Daily Expense" label="Team Building Fee" sequence="7" value="Team Building Fee"/>
+                <element dependent_value="Business Trip Expense" label="Transportation Tickets" sequence="8" value="Transportation Tickets"/>
+                <element dependent_value="Business Trip Expense" label="Accommodation Fee" sequence="9" value="Accommodation Fee"/>
+                <element dependent_value="Business Trip Expense" label="Meals Fee" sequence="10" value="Meals Fee"/>
+                <element dependent_value="Business Trip Expense" label="Travel Fee (Local)" sequence="11" value="Travel Fee (Local)"/>
+                <element dependent_value="Entertainment Expense" label="Entertainment Meals Fee" sequence="12" value="Entertainment Meals Fee"/>
+                <element dependent_value="Entertainment Expense" label="Activities Fee" sequence="13" value="Activities Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Rental &amp; Related" sequence="14" value="Rental &amp; Related"/>
+                <element dependent_value="Non-Stock Payment" label="Office Fee (Vendor)" sequence="15" value="Office Fee (Vendor)"/>
+                <element dependent_value="Non-Stock Payment" label="Logistics Fee" sequence="16" value="Logistics Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Vehicle Use Fee (Vendor)" sequence="17" value="Vehicle Use Fee (Vendor)"/>
+                <element dependent_value="Non-Stock Payment" label="Publicity Fee" sequence="18" value="Publicity Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Insurance Premium" sequence="19" value="Insurance Premium"/>
+                <element dependent_value="Non-Stock Payment" label="Professional Service" sequence="20" value="Professional Service"/>
+                <element dependent_value="Non-Stock Payment" label="Employee Benefits" sequence="21" value="Employee Benefits"/>
+                <element dependent_value="Non-Stock Payment" label="Sales Expense" sequence="22" value="Sales Expense"/>
+                <element dependent_value="Non-Stock Payment" label="Fixed Assets, Intangible Assets, Low Value Consumables" sequence="23" value="Fixed Assets, Intangible Assets, Low Value Consumables"/>
+            </choice>
+        </element>
+        <element label="Invoice No." max_length="40" name="u_dch_ap_invoice_no" type="string"/>
+        <element choice="1" label="Invoice Type" max_length="40" name="u_dch_ap_invoice_type" type="choice">
+            <choice>
+                <element label="General" value="General"/>
+                <element label="Special" value="Special"/>
+            </choice>
+        </element>
+        <element label="Request Number" max_length="32" name="u_dch_ap_request_number" read_only="true" reference="x_dchhl_dch_ap_ap_request" type="reference"/>
+        <element label="Tax Amount" max_length="20" name="u_dch_ap_tax_amount" type="decimal"/>
+        <element label="Tax Rate" max_length="40" name="u_dch_ap_tax_rate" type="integer"/>
+        <index name="index">
+            <element name="u_dch_ap_request_number"/>
+        </index>
+    </element>
+</database>

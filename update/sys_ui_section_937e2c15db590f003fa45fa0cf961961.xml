@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="937e2c15db590f003fa45fa0cf961961" sys_domain="global" table="x_dchhl_dch_ap_ap_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_type</element>
+            <position>0</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>81c3460adba547406862f2adbf961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_sub_type</element>
+            <position>1</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>09c3460adba547406862f2adbf961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_region</element>
+            <position>2</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>89c3460adba547406862f2adbf961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_tel_no</element>
+            <position>3</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>0dc3460adba547406862f2adbf961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_vendor_id</element>
+            <position>4</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>8dc3460adba547406862f2adbf961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_vendor_brand</element>
+            <position>5</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>01c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>81c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_status</element>
+            <position>7</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>05c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_approver</element>
+            <position>8</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>85c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_advanced_amount</element>
+            <position>9</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>09c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_vendor_bank_account</element>
+            <position>10</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>89c3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_vendor_bank_name</element>
+            <position>11</position>
+            <sys_created_by>Kevin.Choi</sys_created_by>
+            <sys_created_on>2017-10-03 06:31:34</sys_created_on>
+            <sys_id>0dc3460adba547406862f2adbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Kevin.Choi</sys_updated_by>
+            <sys_updated_on>2017-10-03 06:31:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 06:07:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>937e2c15db590f003fa45fa0cf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dchhl_dch_ap_ap_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_ui_section_937e2c15db590f003fa45fa0cf961961</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 06:07:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

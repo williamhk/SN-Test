@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_dchhl_dch_ap_ap_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Payment for Vendor</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 06:20:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6451b455db590f003fa45fa0cf96195b</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 08:47:27</sys_updated_on>
+            <value>Payment for Vendor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Personal Payment</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 06:20:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7b07495db590f003fa45fa0cf9619ea</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 08:47:42</sys_updated_on>
+            <value>Personal Write-Off</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 06:20:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6c5174d5db590f003fa45fa0cf961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_choice_x_dchhl_dch_ap_ap_request_category</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 06:20:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

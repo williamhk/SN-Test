@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Dchhl Dch Ap Employee" max_length="40" name="u_imp_tmpl_x_dchhl_dch_ap_employee" type="collection">
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="200" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Department,edge_encryption_enabled=true" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="200" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=Employee ID,edge_encryption_enabled=true" label="Employee ID" max_length="40" name="u_employee_id" type="string"/>
+        <element attributes="import_attribute_name=Employee Name,edge_encryption_enabled=true" label="Employee Name" max_length="40" name="u_employee_name" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_dch_ap_expense_type" table="x_dchhl_dch_ap_criteria" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Communication Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>0</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c96f01acdb61c3403fa45fa0cf9619ea</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:28</sys_updated_on>
+            <value>Communication Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>1</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c7f41acdb61c3403fa45fa0cf961953</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:32</sys_updated_on>
+            <value>Travel Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Express Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>3</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>267f81acdb61c3403fa45fa0cf961923</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:33</sys_updated_on>
+            <value>Express Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>4</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>358f01acdb61c3403fa45fa0cf9619eb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:34</sys_updated_on>
+            <value>Office Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vehicle Use Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>5</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c9f01acdb61c3403fa45fa0cf9619eb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:35</sys_updated_on>
+            <value>Vehicle Use Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Building Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>6</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:53:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>679fc1acdb61c3403fa45fa0cf961944</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:36</sys_updated_on>
+            <value>Building Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboard Body Check</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>7</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:53:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84bf05acdb61c3403fa45fa0cf96191b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:38</sys_updated_on>
+            <value>Onboard Body Check</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Daily Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Team Building Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>8</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4df85acdb61c3403fa45fa0cf96195a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:54:41</sys_updated_on>
+            <value>Team Building Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Business Trip Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transportation Tickets</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>9</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:55:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>801091acdb61c3403fa45fa0cf961973</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:56:11</sys_updated_on>
+            <value>Transportation Tickets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Business Trip Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accommodation Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>10</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>253011acdb61c3403fa45fa0cf9619ef</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:56:12</sys_updated_on>
+            <value>Accommodation Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Business Trip Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trip Meals Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>11</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:55:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc4095acdb61c3403fa45fa0cf96192f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:56:14</sys_updated_on>
+            <value>Trip Meals Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Business Trip Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel Fee (Local)</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>12</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:55:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a64019acdb61c3403fa45fa0cf9619f3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:56:17</sys_updated_on>
+            <value>Travel Fee (Local)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Entertainment Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entertainment Meals Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>13</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:56:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77605dacdb61c3403fa45fa0cf961907</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:56:59</sys_updated_on>
+            <value>Entertainment Meals Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Entertainment Expense</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Activities Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>14</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:56:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e709dacdb61c3403fa45fa0cf961938</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:57:03</sys_updated_on>
+            <value>Activities Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rental &amp; Related</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>15</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f9011ecdb61c3403fa45fa0cf961971</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:59:54</sys_updated_on>
+            <value>Rental &amp; Related</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office Fee  (Vendor)</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>16</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:57:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3a011ecdb61c3403fa45fa0cf961905</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:59:56</sys_updated_on>
+            <value>Office Fee  (Vendor)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Logistics Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>17</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:58:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45c011ecdb61c3403fa45fa0cf9619e2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:59:57</sys_updated_on>
+            <value>Logistics Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vehicle Use Fee (Vendor)</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>18</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:58:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fc011ecdb61c3403fa45fa0cf9619e2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:59:59</sys_updated_on>
+            <value>Vehicle Use Fee (Vendor)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Publicity Fee</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>19</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:58:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3d011ecdb61c3403fa45fa0cf9619e4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:01</sys_updated_on>
+            <value>Publicity Fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insurance Premium</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>20</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:58:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92e01dacdb61c3403fa45fa0cf9619ef</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:03</sys_updated_on>
+            <value>Insurance Premium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professional Service</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>21</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>800191ecdb61c3403fa45fa0cf961919</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:04</sys_updated_on>
+            <value>Professional Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Benefits</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>22</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa019dacdb61c3403fa45fa0cf96193a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:06</sys_updated_on>
+            <value>Employee Benefits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales Expense</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>23</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1119dacdb61c3403fa45fa0cf96193b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:07</sys_updated_on>
+            <value>Sales Expense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Non-Stock Payment</dependent_value>
+            <element>u_dch_ap_expense_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fixed Assets, Intangible Assets, Low Value Consumables</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sequence>24</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:59:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c21d1ecdb61c3403fa45fa0cf961978</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 11:00:09</sys_updated_on>
+            <value>Fixed Assets, Intangible Assets, Low Value Consumables</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_expense_type</element>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-28 10:52:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c47f01acdb61c3403fa45fa0cf961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_dch_ap_expense_type</sys_name>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_choice_x_dchhl_dch_ap_criteria_u_dch_ap_expense_type</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-28 10:52:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

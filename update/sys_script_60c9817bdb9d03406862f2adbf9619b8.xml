@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_dchhl_dch_ap_ap_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DCH_APCN_APRequest_BeforeInsert</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//gs.info('Vendor Id: '+current.u_dch_ap_vendor_id);
+	//gs.info('current type: '+current.u_dch_ap_type);
+	gs.info('DCH_APCN_APRequest_BeforeInsert');
+	var newAPUtilClass = new DCH_APCN_UtilClass();
+
+	var currentUserId = gs.getUserID();
+	var employeeDetail = newAPUtilClass.returnEmployeeInfo(currentUserId);
+	current.state = '1';
+	//Get the Employee record for approver chain
+	if (current.u_dch_ap_approver.getDisplayValue() != null){
+		var threshold = newAPUtilClass.getThreshold(current.u_dch_ap_type,current.u_dch_ap_sub_type,current.u_dch_ap_total_request_amount);
+		if (threshold != null){
+			var thresholdId =threshold.sys_id; 
+			gs.info('confirmed:'+threshold.u_dch_ap_type+'-'+threshold.u_dch_ap_sub_type+'-'+threshold.u_dch_ap_maximum_amount);
+			var approverUserId =  newAPUtilClass.getUserId(current.u_dch_ap_approver);
+
+			var currentUserCompany = employeeDetail.u_dch_ap_company;
+			var currentUserDept = employeeDetail.u_dch_ap_department;
+
+			var approverChain = newAPUtilClass.returnApproverChain(approverUserId,currentUserCompany,currentUserDept,thresholdId);
+			gs.info('approverChain:'+approverChain.u_dch_ap_company+'-'+approverChain.u_dch_ap_department+'-'+approverChain.u_dch_ap_approver_level_1);
+			if (approverChain != null){
+				current.u_dch_ap_approver_level_1 = approverChain.u_dch_ap_approver_level_1;
+				current.u_dch_ap_approver_level_2 = approverChain.u_dch_ap_approver_level_2;
+				current.u_dch_ap_approver_level_3 = approverChain.u_dch_ap_approver_level_3;
+				current.u_dch_ap_approver_level_4 = approverChain.u_dch_ap_approver_level_4;
+				current.u_dch_ap_approver_level_5 = approverChain.u_dch_ap_approver_level_5;
+				current.u_dch_ap_approver_level_6 = approverChain.u_dch_ap_approver_level_6;
+				current.u_dch_ap_approver_level_7 = approverChain.u_dch_ap_approver_level_7;
+				current.u_dch_ap_approver_level_8 = approverChain.u_dch_ap_approver_level_8;
+				current.u_dch_ap_approver_level_9 = approverChain.u_dch_ap_approver_level_9;
+				current.u_dch_ap_approver_level_10 = approverChain.u_dch_ap_approver_level_10;
+			}
+		}
+	}
+
+	// Only Triggger if the Type = 'Personal Write-Off'
+	if (current.u_dch_ap_type =='Personal Write-Off'){
+
+		//var currentUserId = gs.getUserID();
+		//var employeeDetail = newAPUtilClass.returnEmployeeInfo(currentUserId);		
+
+		current.u_dch_ap_employee_id = employeeDetail.u_dch_ap_employee_id;
+		current.u_dch_ap_company = employeeDetail.u_dch_ap_company; 
+		current.u_dch_ap_department = employeeDetail.u_dch_ap_department;
+		current.u_dch_ap_title = employeeDetail.u_dch_ap_title;
+		current.u_dch_ap_email = employeeDetail.u_dch_ap_email;
+		current.u_dch_ap_bank_name = employeeDetail.u_dch_ap_bank_name;
+		current.u_dch_ap_bank_account = employeeDetail.u_dch_ap_bank_account;	
+	}
+	// Only Triggger if the Type = 'Payment for Vendor'
+	if (current.u_dch_ap_type =='Payment for Vendor'){
+
+		var vendorId = current.u_dch_ap_vendor_id;
+		var vendorInfo = newAPUtilClass.returnVendorInfo(vendorId);	
+
+		current.u_dch_ap_vendor_name = vendorInfo.u_dch_ap_vendor_name;
+		current.u_dch_ap_vendor_address = vendorInfo.u_dch_ap_vendor_address;
+		current.u_dch_ap_vendor_phone_number = vendorInfo.u_dch_ap_vendor_phone_number;
+		current.u_dch_ap_vendor_email = vendorInfo.u_dch_ap_vendor_email;
+		current.u_dch_ap_business_license_no = vendorInfo.u_dch_ap_business_license_no;	
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Kevin.Choi</sys_created_by>
+        <sys_created_on>2017-09-26 02:32:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60c9817bdb9d03406862f2adbf9619b8</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>DCH_APCN_APRequest_BeforeInsert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+        <sys_update_name>sys_script_60c9817bdb9d03406862f2adbf9619b8</sys_update_name>
+        <sys_updated_by>Kevin.Choi</sys_updated_by>
+        <sys_updated_on>2017-10-04 07:08:41</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=60c9817bdb9d03406862f2adbf9619b8"/>
+</record_update>

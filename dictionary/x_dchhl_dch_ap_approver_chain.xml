@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Approver Chain" max_length="40" name="x_dchhl_dch_ap_approver_chain" type="collection">
+        <element label="Approver Level 1" max_length="32" name="u_dch_ap_approver_level_1" reference="sys_user" type="reference"/>
+        <element label="Approver Level 10" max_length="32" name="u_dch_ap_approver_level_10" reference="sys_user" type="reference"/>
+        <element label="Approver Level 2" max_length="32" name="u_dch_ap_approver_level_2" reference="sys_user" type="reference"/>
+        <element label="Approver Level 3" max_length="32" name="u_dch_ap_approver_level_3" reference="sys_user" type="reference"/>
+        <element label="Approver Level 4" max_length="32" name="u_dch_ap_approver_level_4" reference="sys_user" type="reference"/>
+        <element label="Approver Level 5" max_length="32" name="u_dch_ap_approver_level_5" reference="sys_user" type="reference"/>
+        <element label="Approver Level 6" max_length="32" name="u_dch_ap_approver_level_6" reference="sys_user" type="reference"/>
+        <element label="Approver Level 7" max_length="32" name="u_dch_ap_approver_level_7" reference="sys_user" type="reference"/>
+        <element label="Approver Level 8" max_length="32" name="u_dch_ap_approver_level_8" reference="sys_user" type="reference"/>
+        <element label="Approver Level 9" max_length="32" name="u_dch_ap_approver_level_9" reference="sys_user" type="reference"/>
+        <element label="Chain ID" mandatory="true" max_length="40" name="u_dch_ap_chain_id" type="string"/>
+        <element label="Company" mandatory="true" max_length="200" name="u_dch_ap_company" type="string"/>
+        <element label="Criteria ID" mandatory="true" max_length="32" name="u_dch_ap_criteria_id" reference="x_dchhl_dch_ap_criteria" type="reference"/>
+        <element label="Department" mandatory="true" max_length="40" name="u_dch_ap_department" type="string"/>
+        <index name="index">
+            <element name="u_dch_ap_approver_level_2"/>
+        </index>
+        <index name="index2">
+            <element name="u_dch_ap_approver_level_1"/>
+        </index>
+        <index name="index3">
+            <element name="u_dch_ap_approver_level_4"/>
+        </index>
+        <index name="index4">
+            <element name="u_dch_ap_approver_level_3"/>
+        </index>
+        <index name="index5">
+            <element name="u_dch_ap_approver_level_9"/>
+        </index>
+        <index name="index6">
+            <element name="u_dch_ap_approver_level_6"/>
+        </index>
+        <index name="index7">
+            <element name="u_dch_ap_criteria_id"/>
+        </index>
+        <index name="index8">
+            <element name="u_dch_ap_approver_level_10"/>
+        </index>
+        <index name="index9">
+            <element name="u_dch_ap_approver_level_5"/>
+        </index>
+        <index name="index10">
+            <element name="u_dch_ap_approver_level_8"/>
+        </index>
+        <index name="index11">
+            <element name="u_dch_ap_approver_level_7"/>
+        </index>
+    </element>
+</database>

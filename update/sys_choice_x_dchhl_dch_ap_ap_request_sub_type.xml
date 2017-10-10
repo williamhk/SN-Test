@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_type" table="x_dchhl_dch_ap_ap_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payment for Vendor</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Stock AP</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence/>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-19 09:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d50ba66ddb554f003fa45fa0cf961946</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:08</sys_updated_on>
+            <value>Non-Stock AP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payment for Vendor</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stock AP</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence/>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-19 09:53:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae6b6e6ddb554f003fa45fa0cf961970</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:48</sys_updated_on>
+            <value>Stock AP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Personal Write-Off</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Trip Expense</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:10:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f81855d1dbd90f003fa45fa0cf96191c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:17</sys_updated_on>
+            <value>Business Trip Expense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Personal Write-Off</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daily Expense</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>041851d1dbd90f003fa45fa0cf9619dc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:19</sys_updated_on>
+            <value>Daily Epxense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Personal Write-Off</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entertainment Expense</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:10:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3548d1d1dbd90f003fa45fa0cf9619ab</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:20</sys_updated_on>
+            <value>Entertainment Expense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Personal Write-Off</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cash Advanced</label>
+            <language>en</language>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:10:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e58d1d1dbd90f003fa45fa0cf96195e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-19 09:53:22</sys_updated_on>
+            <value>Cash Advanced</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_type</element>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:09:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>001851d1dbd90f003fa45fa0cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub_type</sys_name>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_choice_x_dchhl_dch_ap_ap_request_sub_type</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 09:09:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Submit For Approval</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.u_dch_ap_status== '1';</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit For Approval</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[//new global.StateFlow().validFlow(current, '58eae4fcdbe5c3403fa45fa0cf9619de', 'manual');
+current.u_dch_ap_status = '2';
+current.update();]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Haru.Ng</sys_created_by>
+        <sys_created_on>2017-10-03 02:54:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92f1d58adbe947403fa45fa0cf961959</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Submit For Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+        <sys_update_name>sys_ui_action_92f1d58adbe947403fa45fa0cf961959</sys_update_name>
+        <sys_updated_by>William.Keung</sys_updated_by>
+        <sys_updated_on>2017-10-10 01:14:10</sys_updated_on>
+        <table>x_dchhl_dch_ap_ap_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

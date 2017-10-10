@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="96fe91d5dbd90f003fa45fa0cf961970" sys_domain="global" table="x_dchhl_dch_ap_ap_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1efe91d5dbd90f003fa45fa0cf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dchhl_dch_ap_ap_request" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">96fe91d5dbd90f003fa45fa0cf961970</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">937e2c15db590f003fa45fa0cf961961</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 09:39:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 03:32:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae21aa04db2583403fa45fa0cf961989</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dchhl_dch_ap_ap_request" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">96fe91d5dbd90f003fa45fa0cf961970</sys_ui_form>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:32:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1afe91d5dbd90f003fa45fa0cf961973</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dchhl_dch_ap_ap_request" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">96fe91d5dbd90f003fa45fa0cf961970</sys_ui_form>
+            <sys_ui_section caption="Approver List" display_value="Approver List" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">56fe91d5dbd90f003fa45fa0cf96196f</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:32:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:50:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb61a919dbd90f003fa45fa0cf961957</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dchhl_dch_ap_ap_request" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">96fe91d5dbd90f003fa45fa0cf961970</sys_ui_form>
+            <sys_ui_section caption="Receiver Information (Employee)" display_value="Receiver Information (Employee)" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">2361a919dbd90f003fa45fa0cf961955</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:32:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-21 04:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3637b8edb598f003fa45fa0cf9619be</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dchhl_dch_ap_ap_request" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">96fe91d5dbd90f003fa45fa0cf961970</sys_ui_form>
+            <sys_ui_section caption="Receiver Information (Vendor)" display_value="Receiver Information (Vendor)" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">3f637b8edb598f003fa45fa0cf9619ba</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:32:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-18 09:39:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96fe91d5dbd90f003fa45fa0cf961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dchhl_dch_ap_ap_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_96fe91d5dbd90f003fa45fa0cf961970</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-18 09:39:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

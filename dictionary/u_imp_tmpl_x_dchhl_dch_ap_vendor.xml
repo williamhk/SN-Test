@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Dchhl Dch Ap Vendor" max_length="40" name="u_imp_tmpl_x_dchhl_dch_ap_vendor" type="collection">
+        <element attributes="import_attribute_name=Address,edge_encryption_enabled=true" label="Address" max_length="200" name="u_address" type="string"/>
+        <element attributes="import_attribute_name=Business License No,edge_encryption_enabled=true" label="Business License No" max_length="40" name="u_business_license_no" type="string"/>
+        <element attributes="import_attribute_name=Vendor ID,edge_encryption_enabled=true" label="Vendor ID" max_length="40" name="u_vendor_id" type="string"/>
+        <element attributes="import_attribute_name=Vendor Name,edge_encryption_enabled=true" label="Vendor Name" max_length="200" name="u_vendor_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8ab84442db918f003fa45fa0cf9619e4" sys_domain="global" table="x_dchhl_dch_ap_criteria" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criteria_id</element>
+            <position>0</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>0de88c82db918f003fa45fa0cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>1</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>8de88c82db918f003fa45fa0cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sub_type</element>
+            <position>2</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>01e88c82db918f003fa45fa0cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expense_type</element>
+            <position>3</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>81e88c82db918f003fa45fa0cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criteria1</element>
+            <position>4</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>05e88c82db918f003fa45fa0cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criteria2</element>
+            <position>5</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>85e88c82db918f003fa45fa0cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criteria3</element>
+            <position>6</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:19:01</sys_created_on>
+            <sys_id>09e88c82db918f003fa45fa0cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_criteria_id</element>
+            <position>7</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 02:49:02</sys_created_on>
+            <sys_id>031488afdbdd03403fa45fa0cf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 02:49:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_type</element>
+            <position>8</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 02:50:12</sys_created_on>
+            <sys_id>486444afdbdd03403fa45fa0cf9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 02:50:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_sub_type</element>
+            <position>9</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 02:54:11</sys_created_on>
+            <sys_id>ae4584efdbdd03403fa45fa0cf9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 02:54:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_expense_type</element>
+            <position>10</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 02:59:03</sys_created_on>
+            <sys_id>3d660423db1143403fa45fa0cf9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 02:59:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_criteria_1</element>
+            <position>11</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 06:10:08</sys_created_on>
+            <sys_id>3422b02bdb5143403fa45fa0cf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 06:10:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_criteria_2</element>
+            <position>12</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 06:19:45</sys_created_on>
+            <sys_id>7954b06bdb5143403fa45fa0cf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 06:19:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_criteria_3</element>
+            <position>13</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-25 06:20:13</sys_created_on>
+            <sys_id>a874302bdb5143403fa45fa0cf96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-25 06:20:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_maximum_amount</element>
+            <position>14</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 03:24:11</sys_created_on>
+            <sys_id>615f96c0db2583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dchhl_dch_ap_criteria" sys_domain="global" view="Default view">8ab84442db918f003fa45fa0cf9619e4</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:24:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dchhl_dch_ap_criteria</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-20 11:18:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ab84442db918f003fa45fa0cf9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dchhl_dch_ap_criteria</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_ui_section_8ab84442db918f003fa45fa0cf9619e4</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-20 11:18:17</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

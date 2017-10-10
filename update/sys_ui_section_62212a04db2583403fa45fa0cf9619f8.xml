@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="System Information" section_id="62212a04db2583403fa45fa0cf9619f8" sys_domain="global" table="x_dchhl_dch_ap_ap_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>0d0d23ccdba583403fa45fa0cf961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>1</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>8d0d23ccdba583403fa45fa0cf961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>2</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>010d23ccdba583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>810d23ccdba583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>4</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>050d23ccdba583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>5</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>850d23ccdba583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dch_ap_total_request_amount</element>
+            <position>6</position>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 09:03:35</sys_created_on>
+            <sys_id>090d23ccdba583403fa45fa0cf961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="System Information" display_value="System Information" name="x_dchhl_dch_ap_ap_request" sys_domain="global" view="Default view">62212a04db2583403fa45fa0cf9619f8</sys_ui_section>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 09:03:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>System Information</caption>
+            <header>false</header>
+            <name>x_dchhl_dch_ap_ap_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-09-27 03:32:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62212a04db2583403fa45fa0cf9619f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>System Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_ui_section_62212a04db2583403fa45fa0cf9619f8</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-09-27 03:33:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

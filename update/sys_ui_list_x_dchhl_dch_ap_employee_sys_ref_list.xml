@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dchhl_dch_ap_employee" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dch_ap_employee_id</element>
+            <list_id display_value="x_dchhl_dch_ap_employee" element="NULL" name="x_dchhl_dch_ap_employee" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">edcd971adbe587403fa45fa0cf961972</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:19</sys_created_on>
+            <sys_id>69cd971adbe587403fa45fa0cf961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dch_ap_employee_name</element>
+            <list_id display_value="x_dchhl_dch_ap_employee" element="NULL" name="x_dchhl_dch_ap_employee" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">edcd971adbe587403fa45fa0cf961972</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:19</sys_created_on>
+            <sys_id>edcd971adbe587403fa45fa0cf961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dch_ap_title</element>
+            <list_id display_value="x_dchhl_dch_ap_employee" element="NULL" name="x_dchhl_dch_ap_employee" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">edcd971adbe587403fa45fa0cf961972</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:19</sys_created_on>
+            <sys_id>61cd971adbe587403fa45fa0cf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dch_ap_company</element>
+            <list_id display_value="x_dchhl_dch_ap_employee" element="NULL" name="x_dchhl_dch_ap_employee" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">edcd971adbe587403fa45fa0cf961972</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:19</sys_created_on>
+            <sys_id>e1cd971adbe587403fa45fa0cf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dch_ap_department</element>
+            <list_id display_value="x_dchhl_dch_ap_employee" element="NULL" name="x_dchhl_dch_ap_employee" parent="NULL" relationship="NULL" sys_domain="global" view="7aef34320f332200e9ec5c3be1050e7f">edcd971adbe587403fa45fa0cf961972</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:19</sys_created_on>
+            <sys_id>65cd971adbe587403fa45fa0cf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dchhl_dch_ap_employee</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Haru.Ng</sys_created_by>
+            <sys_created_on>2017-10-04 07:43:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edcd971adbe587403fa45fa0cf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dchhl_dch_ap_employee</sys_name>
+            <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+            <sys_update_name>sys_ui_list_x_dchhl_dch_ap_employee_sys_ref_list</sys_update_name>
+            <sys_updated_by>Haru.Ng</sys_updated_by>
+            <sys_updated_on>2017-10-04 07:43:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">7aef34320f332200e9ec5c3be1050e7f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

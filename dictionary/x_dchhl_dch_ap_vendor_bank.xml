@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vendor Bank " max_length="40" name="x_dchhl_dch_ap_vendor_bank" type="collection">
+        <element display="true" label="Vendor Bank Account" max_length="40" name="u_dch_ap_vendor_bank_account" type="string"/>
+        <element label="Vendor Bank Name" max_length="200" name="u_dch_ap_vendor_bank_name" type="string"/>
+        <element label="Vendor ID" max_length="32" name="u_dch_ap_vendor_id" reference="x_dchhl_dch_ap_vendor" type="reference"/>
+        <index name="index">
+            <element name="u_dch_ap_vendor_id"/>
+        </index>
+    </element>
+</database>

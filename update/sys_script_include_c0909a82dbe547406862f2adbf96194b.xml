@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dchhl_dch_ap.DCH_APCN_GetVendorBrand</api_name>
+        <client_callable>true</client_callable>
+        <description>Control 'u_dch_ap_vendor_brand' Field on the AP Request</description>
+        <name>DCH_APCN_GetVendorBrand</name>
+        <script><![CDATA[function DCH_APCN_GetVendorBrand(vendorId){
+	var vendorBrandIds = '';
+	var vendorBrandTable = new GlideRecord('x_dchhl_dch_ap_vendor_brand');
+	vendorBrandTable.addQuery("u_dch_ap_vendor_id",vendorId);
+	vendorBrandTable.query();
+	
+	while (vendorBrandTable.next()){
+		if (vendorBrandIds.length == 0){
+			vendorBrandIds = (vendorBrandTable.sys_id);
+		}else{
+			vendorBrandIds+=(',' + vendorBrandTable.sys_id);
+		}
+		
+	}
+	
+	return 'sys_id IN' + vendorBrandIds;
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Kevin.Choi</sys_created_by>
+        <sys_created_on>2017-10-03 07:28:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c0909a82dbe547406862f2adbf96194b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DCH_APCN_GetVendorBrand</sys_name>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+        <sys_update_name>sys_script_include_c0909a82dbe547406862f2adbf96194b</sys_update_name>
+        <sys_updated_by>Kevin.Choi</sys_updated_by>
+        <sys_updated_on>2017-10-03 07:32:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

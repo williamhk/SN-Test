@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Dchhl Dch Ap Vendor Bank" max_length="40" name="u_imp_tmpl_x_dchhl_dch_ap_vendor_bank" type="collection">
+        <element attributes="import_attribute_name=Vendor Bank Account,edge_encryption_enabled=true" label="Vendor Bank Account" max_length="40" name="u_vendor_bank_account" type="string"/>
+        <element attributes="import_attribute_name=Vendor Bank Name,edge_encryption_enabled=true" label="Vendor Bank Name" max_length="200" name="u_vendor_bank_name" type="string"/>
+        <element attributes="import_attribute_name=Vendor ID,edge_encryption_enabled=true" label="Vendor ID" max_length="32" name="u_vendor_id" type="string"/>
+    </element>
+</database>

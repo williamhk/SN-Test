@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Employee" max_length="40" name="x_dchhl_dch_ap_employee" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="CNAP" label="Application" mandatory="true" max_length="40" name="u_dch_ap_application" type="choice">
+            <choice>
+                <element label="CNAP" sequence="0" value="CNAP"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Bank Account" max_length="40" name="u_dch_ap_bank_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bank Name" max_length="200" name="u_dch_ap_bank_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="200" name="u_dch_ap_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="40" name="u_dch_ap_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="200" name="u_dch_ap_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Employee ID" mandatory="true" max_length="40" name="u_dch_ap_employee_id" type="string"/>
+        <element label="Employee Name" max_length="40" name="u_dch_ap_employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_dch_ap_title" type="string"/>
+        <element label="User ID" max_length="40" name="u_dch_ap_user_id" reference="sys_user" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="AP Request" max_length="40" name="x_dchhl_dch_ap_ap_request" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Advanced Amount" max_length="20" name="u_dch_ap_advanced_amount" type="decimal"/>
+        <element label="Approver" max_length="32" name="u_dch_ap_approver" reference="x_dchhl_dch_ap_employee" type="reference"/>
+        <element label="Approver Level 1" max_length="32" name="u_dch_ap_approver_level_1" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 10" max_length="40" name="u_dch_ap_approver_level_10" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 2" max_length="40" name="u_dch_ap_approver_level_2" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 3" max_length="40" name="u_dch_ap_approver_level_3" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 4" max_length="40" name="u_dch_ap_approver_level_4" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 5" max_length="40" name="u_dch_ap_approver_level_5" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 6" max_length="40" name="u_dch_ap_approver_level_6" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 7" max_length="40" name="u_dch_ap_approver_level_7" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 8" max_length="40" name="u_dch_ap_approver_level_8" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Approver Level 9" max_length="40" name="u_dch_ap_approver_level_9" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Bank Account" max_length="40" name="u_dch_ap_bank_account" read_only="true" type="string"/>
+        <element label="Bank Name" max_length="200" name="u_dch_ap_bank_name" read_only="true" type="string"/>
+        <element label="Business License No." max_length="40" name="u_dch_ap_business_license_no" read_only="true" type="string"/>
+        <element label="Company" max_length="200" name="u_dch_ap_company" read_only="true" type="string"/>
+        <element label="Department" max_length="40" name="u_dch_ap_department" read_only="true" type="string"/>
+        <element label="Email" max_length="40" name="u_dch_ap_email" read_only="true" type="string"/>
+        <element label="Employee ID" max_length="40" name="u_dch_ap_employee_id" read_only="true" type="string"/>
+        <element label="Region" max_length="40" name="u_dch_ap_region" type="string"/>
+        <element choice="1" default="1" label="Status" max_length="40" name="u_dch_ap_status" read_only="true" type="choice">
+            <choice>
+                <element label="Draft" sequence="0" value="1"/>
+                <element label="Awaiting for Approval" sequence="1" value="2"/>
+                <element label="Approved" sequence="2" value="3"/>
+                <element label="Rejected" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="u_dch_ap_type" dependent_on_field="u_dch_ap_type" label="Sub-Type" max_length="40" name="u_dch_ap_sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Personal Write-Off" label="Daily Expense" sequence="0" value="Daily Expense"/>
+                <element dependent_value="Personal Write-Off" label="Business Trip Expense" sequence="1" value="Business Trip Expense"/>
+                <element dependent_value="Personal Write-Off" label="Entertainment Expense" sequence="2" value="Entertainment Expense"/>
+                <element dependent_value="Personal Write-Off" label="Cash Advanced" sequence="3" value="Cash Advanced"/>
+                <element dependent_value="Payment for Vendor" label="Non-Stock Payment" sequence="4" value="Non-Stock Payment"/>
+                <element dependent_value="Payment for Vendor" label="Stock Payment" sequence="5" value="Stock Payment"/>
+            </choice>
+        </element>
+        <element label="Tel. No." max_length="40" name="u_dch_ap_tel_no" type="string"/>
+        <element label="Title" max_length="40" name="u_dch_ap_title" read_only="true" type="string"/>
+        <element label="Total Request Amount" max_length="15" name="u_dch_ap_total_request_amount" read_only="true" type="decimal"/>
+        <element choice="1" label="Type" max_length="40" name="u_dch_ap_type" type="choice">
+            <choice>
+                <element label="Personal Write-Off" sequence="0" value="Personal Write-Off"/>
+                <element label="Payment for Vendor" sequence="1" value="Payment for Vendor"/>
+            </choice>
+        </element>
+        <element label="Vendor Address" max_length="40" name="u_dch_ap_vendor_address" read_only="true" type="string"/>
+        <element label="Vendor Bank Account" max_length="40" name="u_dch_ap_vendor_bank_account" reference="x_dchhl_dch_ap_vendor_bank" reference_qual="javascript:DCH_APCN_GetVendorBankInfo(current.u_dch_ap_vendor_id)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Vendor Bank Name" max_length="200" name="u_dch_ap_vendor_bank_name" type="string"/>
+        <element label="Vendor Brand" max_length="40" name="u_dch_ap_vendor_brand" reference="x_dchhl_dch_ap_vendor_brand" reference_qual="javascript:DCH_APCN_GetVendorBrand(current.u_dch_ap_vendor_id)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Vendor Email" max_length="200" name="u_dch_ap_vendor_email" read_only="true" type="string"/>
+        <element label="Vendor ID" max_length="32" name="u_dch_ap_vendor_id" reference="x_dchhl_dch_ap_vendor" type="reference"/>
+        <element label="Vendor Name" max_length="200" name="u_dch_ap_vendor_name" read_only="true" type="string"/>
+        <element label="Vendor Phone Number" max_length="40" name="u_dch_ap_vendor_phone_number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="u_dch_ap_approver_level_1"/>
+        </index>
+        <index name="index2">
+            <element name="u_dch_ap_vendor_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_dch_ap_approver"/>
+        </index>
+    </element>
+</database>

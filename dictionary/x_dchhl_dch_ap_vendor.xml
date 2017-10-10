@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vendor" max_length="40" name="x_dchhl_dch_ap_vendor" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Business License No" max_length="40" name="u_dch_ap_business_license_no" type="string"/>
+        <element label="Address" max_length="200" name="u_dch_ap_vendor_address" type="string"/>
+        <element label="Vendor Email" max_length="40" name="u_dch_ap_vendor_email" type="string"/>
+        <element display="true" label="Vendor ID" mandatory="true" max_length="40" name="u_dch_ap_vendor_id" type="string"/>
+        <element label="Vendor Name" max_length="200" name="u_dch_ap_vendor_name" type="string"/>
+        <element label="Phone Number" max_length="40" name="u_dch_ap_vendor_phone_number" type="string"/>
+    </element>
+</database>

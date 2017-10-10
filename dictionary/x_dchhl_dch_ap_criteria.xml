@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Payment Thresold Management" max_length="40" name="x_dchhl_dch_ap_criteria" type="collection">
+        <element display="true" label="Criteria ID" mandatory="true" max_length="40" name="u_dch_ap_criteria_id" type="string"/>
+        <element choice="1" dependent="u_dch_ap_sub_type" dependent_on_field="u_dch_ap_sub_type" label="Expense Type" max_length="40" name="u_dch_ap_expense_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Daily Expense" label="Communication Fee" sequence="0" value="Communication Fee"/>
+                <element dependent_value="Daily Expense" label="Travel Fee" sequence="1" value="Travel Fee"/>
+                <element dependent_value="Daily Expense" label="Express Fee" sequence="3" value="Express Fee"/>
+                <element dependent_value="Daily Expense" label="Office Fee" sequence="4" value="Office Fee"/>
+                <element dependent_value="Daily Expense" label="Vehicle Use Fee" sequence="5" value="Vehicle Use Fee"/>
+                <element dependent_value="Daily Expense" label="Building Fee" sequence="6" value="Building Fee"/>
+                <element dependent_value="Daily Expense" label="Onboard Body Check" sequence="7" value="Onboard Body Check"/>
+                <element dependent_value="Daily Expense" label="Team Building Fee" sequence="8" value="Team Building Fee"/>
+                <element dependent_value="Business Trip Expense" label="Transportation Tickets" sequence="9" value="Transportation Tickets"/>
+                <element dependent_value="Business Trip Expense" label="Accommodation Fee" sequence="10" value="Accommodation Fee"/>
+                <element dependent_value="Business Trip Expense" label="Trip Meals Fee" sequence="11" value="Trip Meals Fee"/>
+                <element dependent_value="Business Trip Expense" label="Travel Fee (Local)" sequence="12" value="Travel Fee (Local)"/>
+                <element dependent_value="Entertainment Expense" label="Entertainment Meals Fee" sequence="13" value="Entertainment Meals Fee"/>
+                <element dependent_value="Entertainment Expense" label="Activities Fee" sequence="14" value="Activities Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Rental &amp; Related" sequence="15" value="Rental &amp; Related"/>
+                <element dependent_value="Non-Stock Payment" label="Office Fee  (Vendor)" sequence="16" value="Office Fee  (Vendor)"/>
+                <element dependent_value="Non-Stock Payment" label="Logistics Fee" sequence="17" value="Logistics Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Vehicle Use Fee (Vendor)" sequence="18" value="Vehicle Use Fee (Vendor)"/>
+                <element dependent_value="Non-Stock Payment" label="Publicity Fee" sequence="19" value="Publicity Fee"/>
+                <element dependent_value="Non-Stock Payment" label="Insurance Premium" sequence="20" value="Insurance Premium"/>
+                <element dependent_value="Non-Stock Payment" label="Professional Service" sequence="21" value="Professional Service"/>
+                <element dependent_value="Non-Stock Payment" label="Employee Benefits" sequence="22" value="Employee Benefits"/>
+                <element dependent_value="Non-Stock Payment" label="Sales Expense" sequence="23" value="Sales Expense"/>
+                <element dependent_value="Non-Stock Payment" label="Fixed Assets, Intangible Assets, Low Value Consumables" sequence="24" value="Fixed Assets, Intangible Assets, Low Value Consumables"/>
+            </choice>
+        </element>
+        <element label="Maximum Amount" max_length="40" name="u_dch_ap_maximum_amount" type="integer"/>
+        <element choice="1" dependent="u_dch_ap_type" dependent_on_field="u_dch_ap_type" label="Sub-Type" max_length="40" name="u_dch_ap_sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Personal Write-Off" label="Daily Expense" sequence="0" value="Daily Expense"/>
+                <element dependent_value="Personal Write-Off" label="Business Trip Expense" sequence="1" value="Business Trip Expense"/>
+                <element dependent_value="Personal Write-Off" label="Entertainment Expense" sequence="2" value="Entertainment Expense"/>
+                <element dependent_value="Personal Write-Off" label="Cash Advanced" sequence="3" value="Cash Advanced"/>
+                <element dependent_value="Payment for Vendor" label="Stock Payment" sequence="4" value="Stock Payment"/>
+                <element dependent_value="Payment for Vendor" label="Non-Stock Payment" sequence="5" value="Non-Stock Payment"/>
+            </choice>
+        </element>
+        <element choice="3" default="Payment for Vendor" label="Type" mandatory="true" max_length="40" name="u_dch_ap_type" type="choice">
+            <choice>
+                <element label="Payment for Vendor" value="Payment for Vendor"/>
+                <element label="Personal Write-Off" value="Personal Write-Off"/>
+            </choice>
+        </element>
+    </element>
+</database>

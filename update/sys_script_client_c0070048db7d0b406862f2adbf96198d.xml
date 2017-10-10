@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>AP Request onLoad </description>
+        <field>u_dch_ap_advanced_amount</field>
+        <global>true</global>
+        <messages/>
+        <name>DCH_APCN_APRequest_onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	jslog(g_form.getValue('u_dch_ap_type'));
+	var sections = g_form.getSections();
+	if (g_form.getValue('u_dch_ap_type')=='Personal Write-Off'){
+		g_form.setVisible('u_dch_ap_vendor_id', false);
+		g_form.setVisible('u_dch_ap_vendor_brand', false);
+		g_form.setVisible('u_dch_ap_vendor_bank_account', false);
+		g_form.setVisible('u_dch_ap_vendor_bank_name', false);
+		//Hide Vendor Info Section
+		sections[4].style.display = 'none';
+
+	}else if (g_form.getValue('u_dch_ap_type')=='Payment for Vendor'){
+		g_form.setVisible('u_dch_ap_advanced_amount', false);
+		//Hide Receiver Info Section
+		sections[3].style.display = 'none';
+
+	}else if (g_form.getValue('u_dch_ap_type')==''){
+		g_form.setVisible('u_dch_ap_vendor_id', false);
+		g_form.setVisible('u_dch_ap_vendor_brand', false);
+		g_form.setVisible('u_dch_ap_vendor_bank_account', false);
+		g_form.setVisible('u_dch_ap_vendor_bank_name', false);
+		g_form.setVisible('u_dch_ap_advanced_amount', false);
+		g_form.setVisible('u_dch_ap_approver', false);
+		g_form.setVisible('u_dch_ap_region', false);
+		g_form.setVisible('u_dch_ap_tel_no', false);
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Kevin.Choi</sys_created_by>
+        <sys_created_on>2017-10-09 02:35:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0070048db7d0b406862f2adbf96198d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>DCH_APCN_APRequest_onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DCH AP" source="x_dchhl_dch_ap">11ece415db590f003fa45fa0cf96199b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DCH AP">11ece415db590f003fa45fa0cf96199b</sys_scope>
+        <sys_update_name>sys_script_client_c0070048db7d0b406862f2adbf96198d</sys_update_name>
+        <sys_updated_by>Kevin.Choi</sys_updated_by>
+        <sys_updated_on>2017-10-09 09:38:18</sys_updated_on>
+        <table>x_dchhl_dch_ap_ap_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
